@@ -2,6 +2,17 @@
 {{ cookiecutter.repo_name }}
 ===============================
 
+.. image:: https://travis-ci.org/sileht/{{ cookiecutter.repo_name }}.png?branch=master
+   :target: https://travis-ci.org/sileht/{{ cookiecutter.repo_name }}
+
+.. image:: https://img.shields.io/pypi/v/{{ cookiecutter.repo_name }}.svg
+   :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
+   :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/dm/{{ cookiecutter.repo_name }}.svg
+   :target: https://pypi.python.org/pypi/{{ cookiecutter.repo_name }}/
+   :alt: Downloads
+
 {{ cookiecutter.project_short_description}}
 
 Please feel here a long description which must be at least 3 lines wrapped on
@@ -9,9 +20,20 @@ Please feel here a long description which must be at least 3 lines wrapped on
 Note that this is a hard requirement.
 
 * Free software: Apache license
-* Documentation: http://docs.openstack.org/developer/{{ cookiecutter.repo_name }}
-* Source: http://git.openstack.org/cgit/{{cookiecutter.repo_group}}/{{ cookiecutter.repo_name }}
-* Bugs: http://bugs.launchpad.net/{{cookiecutter.launchpad_project}}
+* Documentation: https://{{ cookiecutter.repo_name }}.readthedocs.org/en/latest
+* Source: https://github.com/sileht/{{ cookiecutter.repo_name }}
+
+Quick Start
+-----------
+
+At the command line::
+
+    $ pip install {{ cookiecutter.repo_name }}
+
+Or, if you have virtualenvwrapper installed::
+
+    $ mkvirtualenv {{ cookiecutter.repo_name }}
+    $ pip install {{ cookiecutter.repo_name }}
 
 Features
 --------

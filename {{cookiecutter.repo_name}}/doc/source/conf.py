@@ -38,7 +38,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'{{cookiecutter.repo_name}}'
-copyright = u'2013, OpenStack Foundation'
+copyright = u'2015, Mehdi Abaakouk'
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
@@ -67,8 +67,7 @@ htmlhelp_basename = '%sdoc' % project
 latex_documents = [
     ('index',
      '%s.tex' % project,
-     u'%s Documentation' % project,
-     u'OpenStack Foundation', 'manual'),
+     u'%s Documentation' % project),
 ]
 
 # Example configuration for intersphinx: refer to the Python standard library.
